@@ -1,7 +1,7 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
 
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyCj50M_NzuxSEIC748ylQyfjqAzRc9DaNA",
   authDomain: "vueproject-4d7e4.firebaseapp.com",
   projectId: "vueproject-4d7e4",
@@ -11,7 +11,7 @@ var firebaseConfig = {
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-const timestamp = firebase.firestore.FieldValue.serverTimerstamp;
+const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
 export { timestamp };
 export default firebaseApp.firestore();

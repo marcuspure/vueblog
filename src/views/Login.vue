@@ -47,7 +47,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .form-wrap {
   overflow: hidden;
   display: flex;
@@ -144,8 +144,12 @@ export default {
     display: none;
     flex: 2;
     background-size: cover;
+    background-image: url("../assets/background.png");
     width: 100%;
     height: 100%;
+    @media (min-width: 900px) {
+      display: initial;
+    }
   }
 }
 </style>
