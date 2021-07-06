@@ -1,6 +1,6 @@
-import firebase from "firebase/app";
+import firebase from "firebase";
 import "firebase/firestore";
-
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>;
 const firebaseConfig = {
   apiKey: "AIzaSyCj50M_NzuxSEIC748ylQyfjqAzRc9DaNA",
   authDomain: "vueproject-4d7e4.firebaseapp.com",
